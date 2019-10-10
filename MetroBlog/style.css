@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    
+    font-family: 'Merriweather', serif;
+
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+    
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+p {
+    margin: 0 0 18px;
+}
+/* Conteiner
+=================================================*/
+
+.conteiner {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* header
+=================================================*/
+
+.header {
+    padding: 40px 0;
+    
+    
+    border-bottom: 1px solid #c0bebe;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-bottom: -20px;
+    
+}
+
+.header__title {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 15px;
+    font-size: 23px;
+   
+}
+
+.header__title2 {
+    color: #343434;
+}
+
+.header__logo {
+    padding: 18px 0;
+    height: 100%;
+    
+}
+
+
+
+/* nav
+=================================================*/
+
+
+.nav {
+    
+    font-size: 23px;
+    font-weight: 700;    
+}
+
+.nav__link {
+    padding: 10px 20px;
+   
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #3a3a3a;
+}
+
+/* Technics
+=================================================*/
+
+
+.Technics {
+    display: flex;
+    justify-content:space-around;
+    font-weight: 900;
+    align-items: center;
+}
+
+.Technics__inner {
+    margin-left: 250px;
+    
+}
+
+.Technics__text {
+    font-size: 72px;
+    color: #5d5d5d;
+}
+
+.Technics__button {
+    height: 40px;
+    width: 206px;
+    padding: 5px;
+    text-align: center;
+    
+    border-radius: 5px;
+    
+    background-color: #3a3a3a;
+    
+}
+
+.link {
+    font-size: 23px;
+    
+    text-decoration: none;
+    color: #fff;
+}
+
+.Technics__item {
+    margin: 40px;
+}
+
+
+/* reviews
+=================================================*/
+
+.reviews__block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.reviews__users {
+    width: 30%;
+    margin-left: 20px;
+    
+}
+
+.reviews__heading {
+    font-size: 26px;
+    line-height: 1.05;
+    padding-right: 60px;
+    margin-bottom: 16px;
+}
+
+
+.reviews__text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+
+
+/* footer
+=================================================*/
+
+.footer {
+    background-color: #393a39;
+    padding: 40px 0;
+}
+
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer__block {
+    text-align: center;
+    width: 30%;
+    padding: 0 15px;
+}
+
+
+.footer__title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #c0bebe;
+}
+
+/* social
+=================================================*/
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social__link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    background-color: #393a39;
+    border: 1px solid #fff;
+    
+    transition: background 0.2s linear; 
+}
+
+.social__link:hover {
+    background-color: #e8ecee;
+}
+
+.social__link:hover .social__icon {
+    
+    fill: #393a39;
+}
+
+.social__icon {
+    display: block;
+    height: 40px;
+    
+    fill: #fff;
+    
+    transition: fill .1s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
